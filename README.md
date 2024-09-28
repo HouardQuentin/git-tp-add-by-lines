@@ -23,9 +23,8 @@ python main.py 30
 
 ouvrez ces deux fichiers et prenez le temps de les lire; que pouvez-vous en dire ?
 
-***
-***
-***
+Pour le fichier fibonacci.py : il comprend une version naive de la fonction associée à la suite de fibonacci.
+Pour le fichier main.py : il importe la fonction fibo du fichier précédent, et permet d'afficher le résultat directement dans le terminal.
 
 * la fonction `fibo()` est écrite de manière totalement sous-optimale, sa complexité est en $O(2^n)$
 * on utilise `sys.argv` pour faire l'acquisition lire la ligne de commande  
